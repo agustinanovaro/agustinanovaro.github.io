@@ -22,27 +22,65 @@
             letter-spacing: 6px;
             text-transform: uppercase;
         }
-        a:link, a:visited, a:hover, a:active {
-            margin: 3em auto 0;
+        p {
             font-family: Georgia, serif;
             font-weight: 500;
-            font-size: 1.4em;
-            color: #2c260c;
-            text-decoration: none;
         }
-        a:hover {
-            text-decoration: underline;
+        a {
+            color: #2c260c;
+        }
+        a.small:link, 
+        a.small:visited, 
+        a.small:hover, 
+        a.small:active {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: .75em;
+        }
+        i {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-image: "./img/poster.jpg";
+        }
+        .projects {
+            margin: 2em auto .5em;
+            font-size: 1.4em;
+        }
+        section {
+            margin: 3em 0;
+        }
+        section p {
+            margin: 1em 0;
+        }
+        h3 {
+            font-family: Montserrat, Arial, Helvetica, sans-serif;
+            font-size: .9em;
         }
     </style>
 </head>
 <body>
     <article>
         <h1>Agustina Novaro</h1>
-        <a href="./projects/index.html">
-            tiempo de abrazar 
-            <br>
-            y tiempo de abstenerse de abrazar
-        </a>
+        <p class="projects">
+            <em>
+                tiempo de abrazar 
+                <br>
+                y tiempo de abstenerse de abrazar
+            </em>
+        </p>
+        <a class="small" href="./projects/index.html">ver proyecto</a>
+        <section>
+            <h3>Statement</h3>
+            <p>El significado de la casa es lo que me impulsa a toda búsqueda y producción. Me interesan las sensibilidades que aparecen dentro de ella, los espacios, los objetos y los habitantes. Me vuelco en su interior como en un viaje de exploración, y comienzo a conocer su flora y fauna, historias, memorias y olvidos.</p>
+            <p>Adapto cada propuesta a una materialidad distinta, que varía entre la pintura, escritura y fotografía. Intento mantener y proyectar la sensibilidad que me genera la casa en sí, buscando colores, formatos y en el caso de la escritura, tipografías.</p>
+        </section>
+        <section>
+            <h3>Contacto</h3>
+            <ul>
+                <li><a href="mailto:anovaro95@gmail.com">anovaro95@gmail.com</a></li>
+                <li><a href="https://www.instagram.com/frvti" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
     </article>
 </body>
 </html>
